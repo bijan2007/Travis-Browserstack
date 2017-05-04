@@ -1,7 +1,7 @@
 addons:
   browserstack:
-    username: BS_USER
-    access_key: BS_KEY
+    username: $BS_USER
+    access_key: $BS_KEY
     forcelocal: true
     
 script: mvn test -B
