@@ -1,5 +1,11 @@
+
+
+
+
 addons:
   browserstack:
     username: "bijanpatel1"
     access_key: "uhoXBZ1YZwrMJo8sooZP"
     forcelocal: true
+    
+script: mvn test -B
