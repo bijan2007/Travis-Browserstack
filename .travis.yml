@@ -1,5 +1,5 @@
 addons:
   browserstack:
     username: "bijanpatel1"
-    secure_key: "uhoXBZ1YZwrMJo8sooZP"
+    access_key: "uhoXBZ1YZwrMJo8sooZP"
     forcelocal: true
