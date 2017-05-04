@@ -28,8 +28,8 @@ public class ParallelTest {
   @BeforeClass
   @org.testng.annotations.Parameters(value={"browser","version","platform"})
   public void setUp(String browser, String version, String platform) throws Exception {
-	String username = "BS_USER";
-	String access_key = "BS_KEY";
+	String username = "bijanpatel1";
+	String access_key = "uhoXBZ1YZwrMJo8sooZP";
     DesiredCapabilities capability = new DesiredCapabilities();
     capability.setCapability("platform",platform);
     capability.setCapability("browserName", browser);

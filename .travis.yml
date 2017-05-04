@@ -1,10 +1,11 @@
 addons:
   browserstack:
-    username: $BS_USER
-    access_key: $BS_KEY
-    forcelocal: true
+    username:bijanpatel1
+    access_key:
+      secure: "fxy7RgMUEwHNjyjbTG4oCU6PR4Evqbg/LzbgrG5w3X9UTGQTqdQ7o6Bjdi11BOpkgJ6u0fpsFYPE7LbgWdOsr79iKOPfb8F3fyF7YlXwV3U+5bMb4EUIW0K0TfBHTCTX6J+nkvMEusNorkSpjdysX7ccSYYLuUEPfKk92wxb4k41wVbFChy3OgtRxV9iwIVpY5ctm76GGeOrc20HD3L+LK3I3k4U/in9l7Lu8lVRWvZeVM1iwA64aP7DfiaSpOVWZJ2EWTa+4wBhK8h85VmOL1HCIRpHdaTJ0gxtPYSxJac1Hgw8rs3k9L0qWzKgdXxUFyM7hbQ0Zg7K5fGcau8q10UUljRvzioBOkx+z+Youwqq3h0hNaB9xyobhqW6R3KyOTpu2DnSOWsJ0QzBnfldEe8ArtCHBKQi/BDwJ+uALnCDMi1Mt9GH00ZHTOeL/ItHXmu+h6zT3f0zGYnjmG0N4VccmHvS3YiadpfO/J3P7zzBrj0nLQgvGY2t2aoYwsJt3joF6087a78sx9mXIrBWNg8Yzl9RBx5Z1VewbcLZTzXDJgjpYvi8XS9D/amFmLBc1WzOE8c2iLgQaNhu3z7N9j/YejuJSUYe5b+NtMqu/Iif7fF9vMBe6wXkjt8XDgFquQ00U84d4vXgcrmkuN/desyZopvZaS8J/2Miibik+RE="
+    forcelocal:true
     
-script: mvn test -B
+script:mvn test -B
 
 notifications:
   email: false
