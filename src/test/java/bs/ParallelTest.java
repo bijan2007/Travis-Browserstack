@@ -36,7 +36,6 @@ public class ParallelTest {
     capability.setCapability("browserVersion", version);
     capability.setCapability("project", "P1");
     capability.setCapability("build", "1.0");
-    capability.setCapability("browserstack.local", "true");
     driver = new RemoteWebDriver(
       new URL("https://"+username +":" + access_key + "@hub-cloud.browserstack.com/wd/hub"),
       capability);
