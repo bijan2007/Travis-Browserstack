@@ -1,11 +1,10 @@
-
-
-
-
 addons:
   browserstack:
-    username: "bijanpatel1"
-    access_key: "uhoXBZ1YZwrMJo8sooZP"
+    username: $BS_USER
+    access_key: $BS_KEY
     forcelocal: true
     
 script: mvn test -B
+
+notifications:
+  email: false

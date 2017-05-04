@@ -28,6 +28,8 @@ public class ParallelTest {
   @BeforeClass
   @org.testng.annotations.Parameters(value={"browser","version","platform"})
   public void setUp(String browser, String version, String platform) throws Exception {
+	String username = "$BS_USER";
+	String access_key = "$BS_KEY";
     DesiredCapabilities capability = new DesiredCapabilities();
     capability.setCapability("platform",platform);
     capability.setCapability("browserName", browser);
@@ -37,7 +39,7 @@ public class ParallelTest {
     capability.setCapability("browserstack.local", "true");
     capability.setCapability("browserstack.localIdentifier", "BROWSERSTACK_LOCAL_IDENTIFIER");
     driver = new RemoteWebDriver(
-      new URL("https://bijanpatel1:uhoXBZ1YZwrMJo8sooZP@hub-cloud.browserstack.com/wd/hub"),
+      new URL("https://"+username +":" + access_key + "@hub-cloud.browserstack.com/wd/hub"),
       capability);
   }
 
